@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en_US">
+<head>
+  <title>String Challenges</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="instructions.css">
+  <link rel="stylesheet" type="text/css" href="Navbar.css">
+</head>
+<body>
+
+<div id="Navbar">
+  <ul>
+    <li><a href="index.htm">Home</a></li>
+    <li><a href="info.htm">Info</a></li>
+    <li><a href="instructions.htm">Instructions</a></li>
+  </ul>
+</div>
+
+<h1 align="center">Before Starting</h1>
+<p>This is a cryptogram solving game. Cryptograms are just encoded messages. This game has several different ciphers, all of which are aristocrats.</p>
+
+<p>Basic tips:</p>
+<video id="tips1" width="50%" height="500px" controls>
+  <source src="Making and Breaking Codes.mp4">
+</video><video id="tips2" width="50%" height="500px" controls>
+  <source src="Solving_Tips.mp4">
+</video>
+
+<br><br>
+
+<p>For solving more advanced ciphers:</p>
+<video id="vigenere" width="100%" height="500px" controls>
+  <source src="Vigenere Cipher Decryption.mp4">
+</video>
+
+<h1 align="center">To Begin</h1>
+<p>Press the begin button when you are ready to start. This will select and display the cipher you are to solve, as well as start a 15 minute timer, at the end of which, you will no longer be able to continue, and your points will be scored.</p>
+
+<h1 align="center">The Goal</h1>
+<p>Your ultimate goal is to get as many points as possible (see <a href="#scoring">Scoring</a> for more information about how the game scores your points). Ultimately you want to decrypt the message as quickly as possible.</p>
+
+<h1 align="center">To Play</h1>
+<p>Upon starting the game, the message will appear in the middle portion of your screen. It should look something like this: <img src="Start.png" width="100%"><br>In this example, "How to deal with death." is the title of the cryptogram. 88 is the message length, counting only encrypted characters. "LUZAICH" is the name chosen by the creator of the cryptogram to represent themself. This is followed by the encrypted message. All punctuation remains the same, though some groups (such as the American Cryptogram Assosiation) have rules about how characters like hyphons are replaced. Following that, there are severaleditable textboxes where you enter what you believe each letter to represent.</p>
+<h2>Controls</h2>
+<p>Just click within the text input and then enter the letter that you want. To update the game with what you've entered, just hit eneter, or click somewhere outside the box you just edited.</p>
+
+<h1 align="center">Ending the Game</h1>
+<p>The game can only end in one of two ways. Either your time will run out, or you will click submit. Upon clicking submit, the game will lock itself, preventing you from making any further changes. The game will immediately score your points.</p>
+
+<h1 id="scoring" align="center">Scoring</h1>
+<p>Every second that you have remaining (assuming you clicked submit ahead of time), you are awarded one point. Then the game will check every character that you have, and check that against the original message. For every correct character, you are awarded 10 points. For every inncorect character you lose 25 pionts (characters such as appostrophies and hypons are free points for you).<br>Your points accumulate over time, and can go below zero.<br>To view your points, hover over the points button (this may be done at any time, but <b>does not</b> live update. i.e. it only updates between games.</p>
+
+</body>
+</html>
